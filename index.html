@@ -293,14 +293,11 @@ h3 { font-size: 1.15rem; letter-spacing: 0.04em; }
 }
 .badge::before { content: '✔'; color: var(--red); }
 
-.hero__photo { display: flex; justify-content: flex-end; }
+.hero__photo { display: flex; justify-content: flex-end; align-items: center; }
 .hero__photo img {
   width: 100%;
-  max-width: 420px;
-  border-radius: var(--radius);
-  object-fit: cover;
-  aspect-ratio: 4/5;
-  box-shadow: 0 0 0 2px rgba(232,22,31,.25);
+  max-width: 380px;
+  height: auto;
 }
 
 /* ============================================================
@@ -743,7 +740,7 @@ h3 { font-size: 1.15rem; letter-spacing: 0.04em; }
   .hero__body { margin-left: auto; margin-right: auto; }
   .hero__badges { justify-content: center; }
   .hero__photo { justify-content: center; }
-  .hero__photo img { max-width: 300px; }
+  .hero__photo img { max-width: 260px; }
   .quem__photo img { max-width: 280px; margin: 0 auto; }
 
   .cards,
@@ -773,10 +770,6 @@ h3 { font-size: 1.15rem; letter-spacing: 0.04em; }
     <div class="hero__grid">
 
       <div class="hero__content">
-        <div class="hero__logo">
-          <img src="assets/logo-stronger-bjj.png" alt="Stronger BJJ — Programa de Fisioterapia Preventiva para Jiu-Jitsu" width="320" height="auto">
-        </div>
-
         <h1 class="hero__title">
           Descubra exatamente o que está<br>
           limitando seu desempenho no jiu-jitsu<br>
@@ -795,8 +788,8 @@ h3 { font-size: 1.15rem; letter-spacing: 0.04em; }
    </div>
 
       <div class="hero__photo">
-        <img src="assets/Faixa Roxa.JPEG"
-             alt="Marissa Alves — fisioterapeuta esportiva e faixa roxa de jiu-jitsu, fundadora da Stronger Fisioterapia"
+        <img src="assets/logo-stronger-bjj.png"
+             alt="Stronger BJJ — Programa de Fisioterapia Preventiva para Jiu-Jitsu"
              width="420" height="auto" loading="eager">
       </div>
 
